@@ -1,0 +1,16 @@
+{
+  "name": "regez",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A type-safe RegExp builder that utilizes functional chaining to create a simple and easy-to-read syntax",
+  "main": "regez.js",
+  "scripts": {
+    "tsc:watch": "tsc-watch --onSuccess \"node dist/regez.js\""
+  },
+  "author": "Dylan Delorie",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.2.2"
+  }
+}
